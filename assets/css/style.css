@@ -208,3 +208,98 @@ hr{
     margin-bottom: 30px;
     border-color: #dddd;
 }
+
+/*contact style*/
+
+.formStyle{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #777777;
+    
+}
+
+input{
+    height: 25px;
+}
+
+input, textarea{
+    width:99%;
+    padding-left:10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #777777;
+    
+
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    width: 85px;
+    height: 30px;
+    color:white;
+    font-size: 15px;
+}
+
+/*Portfolio*/
+
+.portImage{
+    position:relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.textFloat{
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;  
+    top: 100px;
+    color: white;
+    background-color: #4aaaa5;
+    opacity: .8;
+    height: 20px;
+    padding: 3px 0;
+    margin-bottom:10px;
+}
+
+.portfoliocontainer{
+    
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: white;
+    padding:20px;
+    line-height: 1.5;
+    font-size: 18px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;     
+}
+
+.img1{
+    background: url(../images/film.png) no-repeat;
+    background-size: 150px 150px;
+}
+.img2{
+    background: url(../images/gamepad.png) no-repeat;
+    background-size: 150px 150px;
+}
+.img3{
+    background: url(../images/heart.png) no-repeat;
+    background-size: 150px 150px;
+}
+.img4{
+    background: url(../images/internet.png) no-repeat;
+    background-size: 150px 150px;
+}
+.img5{
+    background: url(../images/user.png) no-repeat;
+    background-size: 150px 150px;
+}
