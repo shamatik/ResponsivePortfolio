@@ -43,6 +43,7 @@
 
 .navContainer {
     padding: 0;
+    width: 100%;
 }
 
 .footerContainer{
@@ -67,18 +68,29 @@ body{
 }
 
 nav{
-    width: 960px;
+
     margin: 0 auto;
     box-align: center;
     position: relative;
 }
 
+.navCenter{
+    padding-left: 15%;
+}
+
 .nameContainer{
+    
     background-color: #4aaaa5;
     height:70px;
     width: 15%;
     float: left; 
- 
+    text-align: center;
+    margin: 0;
+    padding-top: 1.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    color: white;   
+
 }
 
 h1{
@@ -92,32 +104,25 @@ h1{
 }
 
 
-h2{
-    text-align: center;
-    margin: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 25px;
-    color: white;   
-}
+
 
 
 
 nav ul {
     margin: 0;
     padding-top: 23px;
-    padding-left: 70%;
+    padding-right: 23%;
+   
 }
 
 nav li {
-    float:left;
+    float:right;
     list-style: none;    
 }
  .navButton{
-     margin-right:10px;
-     padding-right:10px;
-     border-right:1px solid black;
+     margin-left:10px;
+     padding-left:10px;
+     border-left:1px solid black;
     }
 
 footer{
